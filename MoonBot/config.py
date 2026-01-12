@@ -1,8 +1,14 @@
-# Config Placeholder for Android Build
-# Token harusnya di-load dari penyimpanan lokal atau input user agar aman
-
+# Config Android
 import os
 
-# Default values
-API_TOKEN = "TOKEN_AKAN_DIINPUT_DI_APLIKASI"
-OWNER_ID = 0  # Ganti dengan ID Anda jika perlu hardcode, ID angka relatif aman
+# --- KUNCI PUBLIK (AMAN) ---
+# Ini adalah API ID resmi Telegram untuk Android. 
+# Aman digunakan dan tidak perlu disembunyikan.
+DEFAULT_API_ID = 6
+DEFAULT_API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
+
+# --- KUNCI RAHASIA (DIKOSONGKAN) ---
+# Bot Token harus diisi nanti, jangan ditaruh di sini agar tidak bocor lagi.
+# Nanti kita bisa buat fitur input token di dalam aplikasi.
+API_TOKEN = "TOKEN_DUMMY_INI_AKAN_DIGANTI_NANTI"
+OWNER_ID = 0 
