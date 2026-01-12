@@ -6,6 +6,9 @@ title = MoonBot Mobile
 # (str) Package name
 package.name = moonbotmobile
 
+# (str) Package version
+version = 0.1
+
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.moonciel
 

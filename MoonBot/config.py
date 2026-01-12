@@ -1,8 +1,8 @@
-# Config
-API_TOKEN = "8287792530:AAG5wN-Q3cOLQQ0GXhBkO5-zx0g4sTrCdNo"
-OWNER_ID = 7823897009
-DB_NAME = "MoonBot/moonbot.db"
+# Config Placeholder for Android Build
+# Token harusnya di-load dari penyimpanan lokal atau input user agar aman
 
-# Default API ID/Hash (Telegram Android Public Key)
-DEFAULT_API_ID = "6"
-DEFAULT_API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
+import os
+
+# Default values
+API_TOKEN = "TOKEN_AKAN_DIINPUT_DI_APLIKASI"
+OWNER_ID = 0  # Ganti dengan ID Anda jika perlu hardcode, ID angka relatif aman
