@@ -51,7 +51,7 @@ jobs:
           yes | buildozer android debug
 
       - name: Upload APK
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: MoonBot-APK
           path: MoonBot_Android/bin/*.apk
