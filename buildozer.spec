@@ -57,6 +57,9 @@ android.api = 33
 # (int) Minimum API your APK will support.
 android.minapi = 21
 
+# (bool) Automatic SDK license acceptance
+android.accept_sdk_license = True
+
 # (str) Android NDK version to use
 android.ndk = 25b
 
@@ -94,7 +97,7 @@ android.entrypoint = org.kivy.android.PythonActivity
 
 # (bool) Enable AndroidX support. Enable when 'android.gradle_dependencies'
 # contains an 'androidx' package, or any package that depends on one.
-#android.enable_androidx = True
+android.enable_androidx = True
 
 # (list) add java compile options
 # this can for example be necessary when importing certain java libraries using the 'android.gradle_dependencies' option
@@ -142,7 +145,7 @@ android.entrypoint = org.kivy.android.PythonActivity
 [buildozer]
 
 # (int) Log level (0 = error only, 1 = info, 2 = debug (with command output))
-log_level = 1
+log_level = 2
 
 # (int) Display warning if buildozer is run as root (0 = False, 1 = True)
 warn_on_root = 0
